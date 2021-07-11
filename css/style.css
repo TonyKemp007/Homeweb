@@ -1,0 +1,194 @@
+body { 
+    margin: 0;
+    font-family: Quicksand;
+    background-color: rgb(230, 216, 216);
+
+   
+
+
+}
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    max-width: 1920px;
+    max-height: 1029px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 100%;
+    height: 100vh;
+
+    background: 
+    url("../img/demo.png") center 
+    no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro__inner{
+
+
+    width: 100%;
+    max-width: 655px;
+    margin: 180px auto;
+    text-align: center;
+}
+
+.intro__title{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.intro__under{
+
+    font-size: 16px;
+    font-weight: 400;
+    color:#929292;
+    text-align: center;
+     margin: 45px auto;
+
+}
+
+/* Button */
+
+.button__0{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 25px;
+    padding: 14px 50px 20px;
+    
+    
+
+    color: #eee3e3;
+    text-decoration: none;
+    font-weight: 500;
+    border: 0px  solid rgb(18, 55, 177);
+    border-radius: 25px;
+    background: #0063DD;
+    
+    transition: .2s linear;
+}
+
+.button__0:hover{
+    color: rgb(7, 7, 102);
+}
+
+.button__1{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 25px;
+    padding: 14px 50px 20px;
+    
+    
+
+    color: #eee3e3;
+    text-decoration: none;
+    font-weight: 500;
+    border: 0px  solid rgb(18, 55, 177);
+    border-radius: 25px;
+    background: #0063DD;
+    
+    transition: .2s linear;
+}
+
+.button__1:hover{
+    color: rgb(7, 7, 102);
+}
+
+
+ /* Header */
+
+.header{
+   width: 100%;
+   padding: 30px;
+   position: absolute;
+   top: -50px;
+   left: 0;
+   right: 0;
+   z-index: 1000;
+
+}
+
+.header__innter{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+    padding: 0 170px 0 100px ;
+}
+
+.header__logo{
+    font-size: 36px;
+    font-weight: 700;
+    
+    color: rgb(244, 248, 248);
+    border: 0px;
+    padding: 40px 23px 25px 23px; 
+    border-radius: 25px;
+    background: #0F7BFF;
+}
+
+/* Nav */
+
+.nav{
+    font-size: 16px;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 25px;
+    
+
+    color: #929292;
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: .2s linear;
+}
+
+.nav__link:hover{
+    color: rgb(7, 7, 102);
+    
+}
+
+/* Button "sing up" */
+.nav__link0{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 25px;
+    padding: 10px 45px;
+    
+
+    color: #eee3e3;
+    text-decoration: none;
+    font-weight: 500;
+    border: 0px  solid rgb(18, 55, 177);
+    border-radius: 25px;
+    background: #0063DD;
+    
+    transition: .2s linear;
+}
+
+.nav__link0:hover{
+    color: rgb(7, 7, 102);
+    
+}
+
